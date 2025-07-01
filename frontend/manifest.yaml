@@ -24,6 +24,8 @@ spec:
       containers:
       - name: frontend
         image: udaykirane98/frontend:v2
+        securityContext:
+          runAsUser: 0
       
 ---
 kind: Service
