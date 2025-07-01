@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: udaykirane98/frontend:v1
+        image: udaykirane98/frontend:v2
       
 ---
 kind: Service
